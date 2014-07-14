@@ -15,7 +15,6 @@ app.use(function (req, res, next) {
   next()
 })
 
-
 app.get('/', function(req, res){
 
   var html = '<form action="/" method="post">' +
@@ -27,8 +26,6 @@ app.get('/', function(req, res){
                
   res.send(html);
 });
-
-
 
 app.post('/', function(req, res){
   var userName = req.body.userName;
