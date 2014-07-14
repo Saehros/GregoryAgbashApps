@@ -1,0 +1,16 @@
+{
+  "name": "GregoryAgbashApp",
+  "version": "0.0.1-4",
+  "description": "App by Gregory Agbash",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "4.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "subdomain": "agbash-g-g"
+}
